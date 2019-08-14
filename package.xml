@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>EasySocialShop_Api_Paging</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds paging functionality to API calls.</summary>
+    <description>Adds paging functionality to API calls.</description>
+    <notes>First stable release.&#xD;
+Tested on 1.7.0.0 and 1.6.2.0 versions.</notes>
+    <authors><author><name>Alexey Bass</name><user>alexey_bass</user><email>alexey.bass@gmail.com</email></author></authors>
+    <date>2012-06-24</date>
+    <time>15:34:50</time>
+    <contents><target name="magelocal"><dir name="EasySocialShop"><dir name="Catalog"><dir name="Model"><dir name="Product"><file name="Api.php" hash="9efff3475d9e3b3cbcd6a0fff1d3bed3"/></dir></dir><dir name="etc"><file name="config.xml" hash="224b057f0eb7dccfb8c2fd9dd7c1de3b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="EasySocialShop_Catalog.xml" hash="8f34ceddbeb6741f8cfc379710933968"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @category    EasySocialShop
+ * @package     EasySocialShop_Catalog
+ * @author      Alexey Bass (@alexey_bass)
+ */
+-->
+<config>
+    <modules>
+        <EasySocialShop_Catalog>
+            <version>0.1.0</version>
+        </EasySocialShop_Catalog>
+    </modules>
+    <global>
+       <models>
+          <catalog>
+              <rewrite>
+                  <product_api>EasySocialShop_Catalog_Model_Product_Api</product_api>
+              </rewrite>
+          </catalog>
+       </models>
+    </global>
+</config>

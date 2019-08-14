@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @category    EasySocialShop
+ * @package     EasySocialShop_Catalog
+ * @author      Alexey Bass (@alexey_bass)
+ */
+-->
+<config>
+    <modules>
+        <EasySocialShop_Catalog>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Core />
+                <Mage_Catalog />
+            </depends>
+        </EasySocialShop_Catalog>
+    </modules>
+</config>
