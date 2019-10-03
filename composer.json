@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/EasySocialShop_Api_Paging",
+    "name": "OpenMageModuleFostering\/EasySocialShop_Api_Paging",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Adds paging functionality to API calls.",
     "authors": [
-    {
-        "name": "Alexey Bass",
-        "email": "alexey.bass@gmail.com"
-    }
-],
+        {
+            "name": "Alexey Bass",
+            "email": "alexey.bass@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
